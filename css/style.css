@@ -2,3 +2,45 @@
     width: 80%;
     margin: 0 auto;
 }
+
+header > nav.bg-dark{
+ --bs-dark-rgb: 44,62,80;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    line-height: 42px;
+} 
+
+nav ul li a{
+    font-size: small;
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    
+}
+
+img{
+    max-width: 200px;
+}
+
+.star-separator::before,
+.star-separator::after{
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 15%;
+    background-color: white;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+
+.star-separator > i{
+    vertical-align: middle;
+    margin: 0 15px;
+}
